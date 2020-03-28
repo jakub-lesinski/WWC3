@@ -77,6 +77,11 @@
       }
     }
   }
+  
+  @include respond-to('small') {
+    background-color: green;
+  }
+  
 }
 
 .overlayer {
@@ -459,6 +464,6 @@
   }
 }
 
-@include small-smartphone;
-@include medium-smarthphone;
-@include tablet;
+// @include small-smartphone;
+// @include medium-smarthphone;
+// @include tablet;
