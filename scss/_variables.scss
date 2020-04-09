@@ -9,7 +9,9 @@ $darkgrey: #222222;
 // $medium: 768px;
 // $large: 1024px;
 $breakpoints: (
-    'small': 415px,
-    'medium': 768px,
-    'large': 1024px
+  xs: 0,
+  smp: 576px,
+  tab: 768px,
+  dst: 992px,
+  ldt: 1200px
 ) !default;
